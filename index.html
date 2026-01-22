@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>License System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="form">
+    <h2>DATA LICENSE</h2>
+
+    <input id="name" placeholder="Nama Lengkap">
+    <input id="callsign" placeholder="Call Sign">
+    <input id="institution" placeholder="Institution">
+    <input type="date" id="valid">
+
+    <button onclick="generate()">Generate</button>
+  </div>
+
+  <div class="card">
+    <h3>SEAMAN LICENSE</h3>
+    <p>Nama: <span id="pName">-</span></p>
+    <p>Call Sign: <span id="pCall">-</span></p>
+    <p>Institution: <span id="pInst">-</span></p>
+    <p>Valid: <span id="pValid">-</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
